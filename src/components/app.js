@@ -116,7 +116,7 @@ export default class App extends Component {
         ChangeDate("Change Date", () => this.setState({ active: false })),
         LargeText(this.getBirthDate(this.state.startDate.toDate())),
         <label key={3} className="grid__remaining">
-          Remaining until your 18th birthday!
+          Remaining until your next birthday!
         </label>
       ];
     } else {
