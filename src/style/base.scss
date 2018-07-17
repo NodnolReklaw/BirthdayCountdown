@@ -3,6 +3,9 @@ $color-blue-one: #5496E6;
 $color-blue-two: #518BDE;
 $color-grey-one: #444;
 $color-yellow-one: #F7D754;
+$color-grey-two: #e6e6e6;
+$font-roboto: "Roboto Condensed";
+$font-mont: "Monsterrat";
 
 .grid {
     display: grid;
@@ -19,7 +22,7 @@ $color-yellow-one: #F7D754;
         
         font-size: 18px;
         color: white;
-        font-family: 'Montserrat';
+        font-family: $font-mont;
         font-weight: 300;
         line-height: 22px;
         padding: 55px 75px;

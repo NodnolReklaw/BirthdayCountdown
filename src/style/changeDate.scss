@@ -13,8 +13,12 @@
 
     justify-self: start;
 
-    font-family: "Roboto Condensed";
+    font-family: $font-roboto;
     font-weight: 100;
+
+    &:focus {
+        outline: none;
+    }
 
     i {
         margin-right: 20px;
